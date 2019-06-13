@@ -53,7 +53,3 @@ RUN make SALMDIR=/smt_dip/salm
 
 WORKDIR /opt/monoses
 
-#RUN python3 train.py --src /corpus/simp.tokenized.comp-simp/train.origin --trg /corpus/simp.tokenized.comp-simp/train.simple --src-lang co --trg-lang ea --working model/co_ea
-
-#python3 translate.py MODEL-DIR --src SRC --trg TRG < INPUT.TXT > OUTPUT.TXT
-
